@@ -1,0 +1,37 @@
+:root{
+    --main-color: white;
+    --secondary-color: black;
+}
+
+body{
+    background-color: var(--main-color);
+}
+
+header{
+    margin-bottom: 5%;
+    border-bottom: 1px solid var(--secondary-color);
+    height: 100px;
+}
+
+/*made footer stay at the bottom*/
+footer{
+    margin-top: 5%;
+    border-top: 1px solid var(--secondary-color);
+    position: absolute;
+    width: 98%;
+    height: 70px;
+    bottom: 0;
+}
+
+#home-page{
+    display: flex;
+    justify-content: center;
+}
+
+#pj-char-quiz-pg{
+    display: flex;
+    justify-content: center;
+}
+
+
+

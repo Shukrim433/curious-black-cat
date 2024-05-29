@@ -10,7 +10,7 @@ PjoQuizPageEl.style.display = "none"
 // show pjo quiz page
 function startBtnHandler () {
     homePageEl.style.display = "none"
-    PjoQuizPageEl.style.display = "block"
+    PjoQuizPageEl.style.display = "flex"
     q2El.style.display = "none"
 }
 startBtnEl.addEventListener('click', startBtnHandler)
